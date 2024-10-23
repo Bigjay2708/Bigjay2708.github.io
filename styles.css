@@ -17,44 +17,81 @@ body {
 }
 
 .navbar-icon {
-    width: 100px; /* Increased size */
+    width: 100px; 
     height: auto;
     margin-right: 10px;
 }
 
 .navbar-brand b {
-    font-size: 36px; /* Increased font size */
+    font-size: 45px;
+    margin-left: 180px;
 }
 
 .nav-link {
-    font-size: 24px; /* Increased font size */
+    font-size: 20px; 
 }
 
 .nav-link:hover {
-    color: #007bff;
+    color: white;
 }
 
 /* Card container styles */
 .card-container {
     display: flex;
-    flex-wrap: wrap; /* Allows wrapping to the next line if needed */
-    gap: 20px; /* Space between cards */
-    justify-content: center; /* Center the cards horizontally */
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center; 
 }
-
-/* Card styles */
-.card {
-    position: relative;
-    width: 300px; /* Set the width of the card */
-    height: 300px; /* Set the height of the card to make it square */
+/* Featured card styles */
+.featured {
+    width: 100%; 
+    height: 500px; 
     padding: 20px;
     border: 1px solid #ddd;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    overflow: hidden; /* Ensure content doesn't overflow the card */
+    overflow: hidden; 
+    margin-bottom: 20px; 
+    box-shadow: 0 2px 10px darkgreen;
+}
+
+.featured-img-top {
+    width: 300px; 
+    height: auto; 
+    object-fit: cover;
+    margin-left: 460px;
+    
+}
+
+.featured-body {
+    margin-top: 20px;
+}
+
+.featured-title {
+    font-size: 40px; 
+    margin-bottom: 10px;
+    margin-left: 460px;
+    font-style: italic;
+}
+
+.featured-text {
+    text-align: justify;
+}
+
+/* project Card styles */
+
+.card {
+    position: relative;
+    width: 300px; 
+    height: 300px; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 10px darkgreen;
+    overflow: hidden; 
+    margin-left: 100px;
 }
 
 .card-img-top {
-    width: 50px; /* Adjust the size as needed */
+    width: 50px;
     height: auto;
     position: absolute;
     top: 20px;
@@ -62,7 +99,7 @@ body {
 }
 
 .card-body {
-    margin-top: 80px; /* Adjust the margin to make space for the image */
+    margin-top: 80px; 
 }
 
 .card-title {
@@ -74,78 +111,26 @@ body {
     text-align: justify;
 }
 
+.btn-primary { 
+background-color: darkgreen;
+}
+
 /* Button styles */
 .btn-success {
     display: inline-block;
-    padding: 0; /* Remove padding */
-    background-color: transparent; /* Make background transparent */
-    border: none; /* Remove border */
-    cursor: pointer; /* Change cursor to pointer */
+    padding: 0; 
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer;
 }
 
 .btn-success img.btn-icon {
-    width: 40px; /* Adjust the size as needed */
+    width: 50px; 
     height: auto;
 }
 
-.btn-primary {
-    background-color: #007bff;
-    border: none;
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
 
-.btn-primary:hover {
-    background-color: #0056b3;
-}
 
-/* Form styles */
-.formcarry-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.formcarry-form label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.formcarry-form input,
-.formcarry-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-}
-
-.formcarry-form input:focus,
-.formcarry-form textarea:focus {
-    border-color: #007bff;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-}
-
-.formcarry-form button {
-    padding: 10px 20px;
-    background-color: darkgreen;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.formcarry-form button:hover {
-    background-color: #0056b3;
-}
 
 /* Footer styles */
 footer {
@@ -177,26 +162,28 @@ footer {
 }
 
 .bio-card img {
-    width: 150px; /* Adjust the size as needed */
-    height: auto;
+    width: 150px;
+    height: 170px;
     margin-right: 20px;
-    border-radius: 50%; /* Make the image circular */
+    border: 5px solid black
 }
 
 .bio-card .container {
     flex: 1;
+    background-color: lightgray;
 }
 
 .bio-card h4 {
     font-size: 24px;
     margin-bottom: 10px;
     color: #333;
+    text-align: center;
 }
 
 .bio-card p {
     text-align: justify;
     margin-bottom: 10px;
-    color: #555;
+    color: black;
 }
 
 /* Carousel styles */
