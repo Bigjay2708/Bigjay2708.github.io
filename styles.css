@@ -201,13 +201,13 @@ footer {
 
 /* Carousel styles */
 .carousel-item img {
-    height: 300px; /* Adjust the height as needed */
+    height: 500px; /* Adjust the height as needed */
     object-fit: cover; /* Ensure the image covers the area */
 }
 
 .carousel-caption p {
-    font-size: 24px; /* Increase the font size */
+    font-size: 40px; /* Increase the font size */
     color: black; /* Set the text color to black */
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); /* Add white outline */
+    text-shadow: 2px 2px 4px darkgreen; /* Add white outline */
     font-weight: bold; /* Make the text bold */
 }
