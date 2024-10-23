@@ -198,11 +198,13 @@ background-color: darkgreen;
     background-color: transparent; 
     border: none; 
     cursor: pointer;
+    margin-top: 40px;
+    margin-left: 50px;
 }
 
 .btn-success img.btn-icon {
     width: 50px; 
-    height: auto;
+    height: 50px;
 }
 
 /* contact media styles */
@@ -230,8 +232,8 @@ background-color: darkgreen;
 }
 /* Footer styles */
 footer {
-    background-color: black;
-    color: white;
+    background-color: darkgreen;
+    color: black;
     text-align: center;
     padding: 10px 0;
     margin-top: 40px;
