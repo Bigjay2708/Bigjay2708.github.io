@@ -296,3 +296,98 @@ footer {
     text-shadow: 2px 2px 4px darkgreen; /* Add white outline */
     font-weight: bold; /* Make the text bold */
 }
+
+
+
+
+
+
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: darkgray;
+    color: white;
+    padding: 50px 0;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.25em;
+    margin-bottom: 30px;
+  }
+  
+  .hero a.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-size: 1.1em;
+    padding: 10px 20px;
+  }
+  
+  /* Introductory Content */
+  .intro-content {
+    background-color: white;
+    padding: 50px 0;
+  }
+  
+  .intro-content h2 {
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .intro-content p.lead {
+    font-size: 1.15em;
+    margin-bottom: 30px;
+  }
+  
+  .intro-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .intro-content ul li {
+    background: #e9ecef;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+  }
+  
+  /* Inspirational Quotes Section */
+  .quote-carousel-intro {
+    padding: 50px 0;
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .quote-carousel-intro h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .quote-carousel-intro p.lead {
+    font-size: 1.25em;
+  }
+  
+  /* Ensure buttons look consistent */
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
