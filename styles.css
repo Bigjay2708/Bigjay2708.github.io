@@ -197,7 +197,7 @@ body {
     border: none; 
     cursor: pointer;
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 20px;
     background-color: #28a745;
     border-color: #28a745;
     color: white;
@@ -233,7 +233,7 @@ body {
 .btn-success2 img.btn-icon2 {
     width: 50px; 
     height: auto;
-    margin-left: 75px;
+    margin-left: 50px;
 }
 
 .btn-primary { 
@@ -244,14 +244,6 @@ background-color: darkgreen;
 background-color: green;
 } 
 
-/* Footer styles */
-footer {
-    background-color: darkgreen;
-    color: black;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 40px;
-}
 
 /* About Me section styles */
 .about-me {
@@ -336,7 +328,8 @@ footer {
   
 }
   .hero a.btn-primary:hover {
-    background-color: green;
+    background-color: green
+    ;
   }
   /* Introductory Content */
   .intro-content {
@@ -396,5 +389,38 @@ footer {
   
  
   
+/* Footer styles */
+footer {
+    background-color: darkgreen;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .media {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .blockie {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    margin-right: 80px;
+    margin-top: 10px;
+  }
+  
+  .blockie img {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    margin-right: 30px;
+  }
  
   
